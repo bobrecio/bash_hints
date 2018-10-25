@@ -21,3 +21,14 @@ These are some clips that I've found around the internet to remind myself how to
 >printf "%s\n" "$foo"
 >```
 ***
+### Execute a command from *history* ###
+>```
+>> history | grep cat
+ >10 cat file9.txt
+ >11 cat file0.txt
+ >33 cat this.txt
+ >453 cat this.txt
+ >513 vi catalog
+>> !453
+>> cat this.txt
+>```
