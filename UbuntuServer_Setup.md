@@ -1,9 +1,9 @@
 Linux Server setup
 
-1. Install
-- Install the root to, at least, a 40Gb partition. 100Gb should be enough.
-- Map ```/home``` to a large ext4 partition (if possible) (we can add it in fstab later)
-- If you are dual booting with Windows, consider mapping a vfat partition to ```/dos```. You can share content with Windows.
+1. Install Ubuntu Server from USB
+>- Install the root to, at least, a 40Gb partition. 100Gb should be enough.
+>- Map ```/home``` to a large ext4 partition (if possible) (we can add it in fstab later)
+>- If you are dual booting with Windows, consider mapping a vfat partition to ```/dos```. You can share content with Windows.
 
 2. Set up SSH first so you can do the rest remotely!<br>
 ```$ sudo apt install tasksel```<br>
@@ -33,4 +33,7 @@ Get UUID of partition<br>
 
 8. Add ```index.php``` and ```default.php``` to be executable by apache2.<br>
 
-9. 
+9. Add your account to www-data<br>
+```sudo vi /etc/group``` -> www-data\:x\:33:[user]<br>
+
+1. 
