@@ -2,9 +2,9 @@ Linux Server setup
 ==================
 
 1. Install Ubuntu Server from USB<br>
->- Install the root to, at least, a 40Gb partition. 100Gb should be enough.<br>
->- Map ```/home``` to a large ext4 partition (if possible) (we can add it in fstab later)<br>
->- If you are dual booting with Windows, consider mapping a vfat partition to ```/dos```, then you can share content with Windows.<br>
+- Install the root to, at least, a 40Gb partition. 100Gb should be enough.<br>
+- Map ```/home``` to a large ext4 partition (if possible) (we can add it in fstab later)<br>
+- If you are dual booting with Windows, consider mapping a vfat partition to ```/dos```, then you can share content with Windows.<br>
 
 2. Set up SSH first so you can do the rest remotely!<br>
 ```$ sudo apt install tasksel```<br>
