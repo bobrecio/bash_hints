@@ -40,7 +40,7 @@ Get UUID of partition<br>
 9. Add your account to www-data<br>
 ```sudo vi /etc/group```<br>
 
-1. Plexmediaserver => https://www.plex.tv/media-server-downloads/<br>
+1. Plexmediaserver => https://linuxize.com/post/how-to-install-plex-media-server-on-ubuntu-18-04/<br>
 
 1. Secure the server => https://www.thefanclub.co.za/how-to/how-secure-ubuntu-1604-lts-server-part-1-basics
 
