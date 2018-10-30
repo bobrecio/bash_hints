@@ -35,6 +35,8 @@ Get UUID of partition<br>
 8. Add ```index.php``` and ```default.php``` to be executable by apache2.<br>
 
 9. Add your account to www-data<br>
-```sudo vi /etc/group``` -> www\data:x:33:<br>
+```sudo vi /etc/group```<br>
 
-1. 
+1. Plexmediaserver => https://www.plex.tv/media-server-downloads/
+
+
