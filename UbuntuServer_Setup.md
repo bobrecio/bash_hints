@@ -21,15 +21,18 @@ Linux Server setup
 Get UUID of partition<br>
 ```$ blkid /dev/sdc1```<br>
 ```$ln -s /zpool01/HOME/www /www```<br>
+```$ sudo vi /etc/fstab``` => yy/p root entry, replace UUID for /home and other mapped drives.
+```$ sudo reboot```<br>
+```$ cd /``` => should see 
 
 5. Turn on LAMP server using tasksel<br>
 ```$ sudo tasksel``` -> turn on [*]LAMP server<br>
 
 6. Create alternate location for www<br>
 ```$ mv /var/www/html /var/www/html.orig```<br>
-```$ln -s /var/www/html /www```<br>
+```$ ln -s /var/www/html /www```<br>
 
-7. Secuter the mysql instance<br>
+7. Secure the mysql instance<br>
 ```$ sudo mysql_secure_installation```<br>
 
 8. Add ```index.php``` and ```default.php``` to be executable by apache2.<br>
