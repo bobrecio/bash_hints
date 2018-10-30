@@ -1,5 +1,5 @@
-```
-#!/bin/sh
+``` bash {.line-numbers}
+#!/bin/sh 
 dir=/home/backup/$(date '+%Y.%m.%d.%H%M%S');
 mkdir -p $dir/backup-logs;
 
