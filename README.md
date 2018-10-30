@@ -49,3 +49,5 @@ These are some clips that I've found around the internet to remind myself how to
 >lrwxrwxrwx 1 root root 10 Oct 25 21:37 365c77f7-3bfc-4557-a63f-d8132114293a -> ../../sdc1
 >lrwxrwxrwx 1 root root 10 Oct 25 21:37 a46ed437-3a9d-409c-9a04-68c4c5c26c8b -> ../../sdc3
 >```
+### Create directory containging date (for backup files) ###
+>```mkdir $(date '+%Y.%m.%d.%H%M%S')```
