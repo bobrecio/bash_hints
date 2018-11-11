@@ -51,3 +51,12 @@ These are some clips that I've found around the internet to remind myself how to
 >```
 ### Create directory containging date (for backup files) ###
 >```mkdir $(date '+%Y.%m.%d.%H%M%S')```
+***
+### Create photo thumbnails and resize ###
+>```
+>#! /bin/bash
+>for i in *.jpg; do
+>        convert "$i" -resize 200x150 "th.$i";
+>        convert "$i" -resize 1024x768 "web.$i";
+>done;
+>```
