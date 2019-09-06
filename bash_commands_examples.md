@@ -47,8 +47,8 @@
 ## ps
 ## pwd
 ## python3 -m http.server
-- servers the current folder in browser
-```python3 -m http.server```
+- serves the current folder in browser
+`python3 -m http.server`
 
 ## reboot
 ## rm
@@ -60,15 +60,9 @@
 ## su
 ## sudo
 ## tail
-Use ‘tail’ to monitor logs real-time for bug reporting or system analysis. This will provide you updates that occur and could be invaluable for bug reports or monitoring of user activity or changes on your system.
+Get the last lines of a file. Good for logs.
 
-As an example:
-
-For openSUSE, Rhel you can use:
-sudo tail -f -n 6 /var/log/messages
-
-For Debian based distros
-sudo tail -f -n 6 /var/log/syslog
+'sudo tail -f -n 6 /var/log/syslog'
 
 The ‘f’ switch tells it to follow
 The ‘n’ switch tells it to display last N’th number of lines
