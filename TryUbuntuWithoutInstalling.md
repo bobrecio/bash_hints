@@ -28,7 +28,7 @@ Here are the steps...
 
 Remember that any configuration changes that you make are only saved for the current session. So don't bother customizing too much until you have installed Ubuntu. But don't hesitate to see how much you can customize.
 
-Along the same line, browser cache is not saved. Therefore, even if you don't install it, you might want to keep the USB. Some folks use a USB like this to do banking and other sensitive transactions, so that their username and passwords will not be cached in their browser.
+Along the same line, browser cache won't be saved, either. Therefore, even if you don't install it, you might want to keep the USB. Some folks use a USB like this to do banking and other sensitive transactions, so that their username and passwords will not be cached in their browser.
 
 Articles:
 - https://linuxize.com/post/how-to-create-a-bootable-ubuntu-18-04-usb-stick/
