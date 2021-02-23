@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table class="table1 table-striped">
+    <tbody>
+        <tr>
+            <th>ls -l</th>
+            <td>shows file type and access permission</td>
+        </tr>
+        <tr>
+            <th>ls -a</th>
+            <td>lists also hidden files</td>
+        </tr>
+        <tr>
+            <th>ls -al</th>
+            <td>lists files and directories detailly</td>
+        </tr>
+        <tr>
+            <th>pwd</th>
+            <td>shows present directory</td>
+        </tr>
+        <tr>
+            <th>mkdir directory</th>
+            <td>creates a directory</td>
+        </tr>
+        <tr>
+            <th>rm xyz</th>
+            <td>deletes file xyz</td>
+        </tr>
+        <tr>
+            <th>rm -r /xyz</th>
+            <td>deletes directory /xyz and its contents recursively</td>
+        </tr>
+        <tr>
+            <th>rm -f abc</th>
+            <td>forcefully deletes abc file without confirmation</td>
+        </tr>
+        <tr>
+            <th>rm -rf /xyz</th>
+            <td>forcefully deletes directory /xyz recursively</td>
+        </tr>
+        <tr>
+            <th>cp aaa bbb</th>
+            <td>copies aaa file to bbb file</td>
+        </tr>
+        <tr>
+            <th>cp -r /xxx /yyy</th>
+            <td>copies /xxx directıry to /yyy directory</td>
+        </tr>
+        <tr>
+            <th>mv aaa bbb</th>
+            <td>renames or moves file aaa to file bbb</td>
+        </tr>
+        <tr>
+            <th>touch abc</th>
+            <td>creates an empty file named abc</td>
+        </tr>
+        <tr>
+            <th>cat abc</th>
+            <td>used to view file abc</td>
+        </tr>
+        <tr>
+            <th>less abc</th>
+            <td>browse through a text file abc</td>
+        </tr>
+        <tr>
+            <th>head abc</th>
+            <td>displays first 10 lines of file abc</td>
+        </tr>
+        <tr>
+            <th>tail abc</th>
+            <td>displays last 10 lines of file abc</td>
+        </tr>
+        <tr>
+            <th>tail -f abc</th>
+            <td>displays last 10 lines of file abc and follow it as it grows
+            </td>
+        </tr>
+        <tr>
+            <th>tail -F abc</th>
+            <td>outputs last lines of abc as it changes</td>
+        </tr>
+        <tr>
+            <th>file abc</th>
+            <td>gets type of abc</td>
+        </tr>
+        <tr>
+            <th>gpg -c abc</th>
+            <td>encrypts file abc</td>
+        </tr>
+        <tr>
+            <th>gpg abc</th>
+            <td>decrypts file abc</td>
+        </tr>
+        <tr>
+            <th>gpg abc</th>
+            <td>decrypts file abc</td>
+        </tr>
+        <tr>
+            <th>gpg abc</th>
+            <td>decrypts file abc</td>
+        </tr>
+        <tr>
+            <th>dir</th>
+            <td>shows files in the current directory</td>
+        </tr>
+        <tr>
+            <th>put abc</th>
+            <td>uploads file &#8216;abc&#8217; from local to remote device
+            </td>
+        </tr>
+        <tr>
+            <th>get file</th>
+            <td>downloads file &#8216;abc&#8217; from remote to local device
+            </td>
+        </tr>
+    </tbody>
+</table>
+<table class="table1 table-striped">
+    <tbody>
+        <tr>
+            <th>-a</th>
+            <td>shows all (including hidden)</td>
+        </tr>
+        <tr>
+            <th>-R</th>
+            <td>recursive list</td>
+        </tr>
+        <tr>
+            <th>-r</th>
+            <td>reverse order</td>
+        </tr>
+        <tr>
+            <th>-t</th>
+            <td>sort by last modified</td>
+        </tr>
+        <tr>
+            <th>-S</th>
+            <td>sort by file size</td>
+        </tr>
+        <tr>
+            <th>-l</th>
+            <td>long listing format</td>
+        </tr>
+        <tr>
+            <th>-1</th>
+            <td>one file per line</td>
+        </tr>
+        <tr>
+            <th>-m</th>
+            <td>comma-­sep­arated output</td>
+        </tr>
+        <tr>
+            <th>-Q</th>
+            <td>quoted output</td>
+        </tr>
+    </tbody>
+</table>
+<table class="table1 table-striped">
+    <tbody>
+        <tr>
+            <th>ps</th>
+            <td>displays currently running processes</td>
+        </tr>
+        <tr>
+            <th>ps PID</th>
+            <td>gives the status of a particular process</td>
+        </tr>
+        <tr>
+            <th>pidof</th>
+            <td>gives the process ID of a process</td>
+        </tr>
+        <tr>
+            <th>ps -ef</th>
+            <td>displays all running processes on the system</td>
+        </tr>
+        <tr>
+            <th>ps -ef | grep xyz</th>
+            <td>displays process information for xyz</td>
+        </tr>
+        <tr>
+            <th>top</th>
+            <td>displays and manages the top processes</td>
+        </tr>
+        <tr>
+            <th>htop</th>
+            <td>interactive process viewer (top alternative)</td>
+        </tr>
+        <tr>
+            <th>kill pid</th>
+            <td>kills process with process ID of pid</td>
+        </tr>
+        <tr>
+            <th>pkill xyz</th>
+            <td>kills process with name xyz</td>
+        </tr>
+        <tr>
+            <th>killall abc</th>
+            <td>kills all processes named abc</td>
+        </tr>
+        <tr>
+            <th>program &amp;</th>
+            <td>starts program in the background</td>
+        </tr>
+        <tr>
+            <th>bg</th>
+            <td>lists and resumes stopped jobs in the background</td>
+        </tr>
+        <tr>
+            <th>fg</th>
+            <td>brings the most recent background job to foreground.</td>
+        </tr>
+        <tr>
+            <th>fg x</th>
+            <td>brings job x to the foreground</td>
+        </tr>
+        <tr>
+            <th>nice</th>
+            <td>starts a process with a given priority</td>
+        </tr>
+        <tr>
+            <th>renice</th>
+            <td>changes priority of an already running process</td>
+        </tr>
+        <tr>
+            <th>pstree</th>
+            <td>displays processes in a tree-like diagram</td>
+        </tr>
+        <tr>
+            <th>pmap</th>
+            <td>displays a memory usage map of processes</td>
+        </tr>
+        <tr>
+            <th>lsof</th>
+            <td>lists files opened by running processes</td>
+        </tr>
+    </tbody>
+</table>
+<table class="table1 table-striped">
+    <tbody>
+        <tr>
+            <th>arp</th>
+            <td>displays ARP table of the device</td>
+        </tr>
+        <tr>
+            <th>arpwatch</th>
+            <td>displays ethernet activity and Ethernet/ip pairings</td>
+        </tr>
+        <tr>
+            <th>bmon</th>
+            <td>displays bandwidth, captures</td>
+        </tr>
+        <tr>
+            <th>curl</th>
+            <td>used for for file transfer</td>
+        </tr>
+        <tr>
+            <th>dhclient</th>
+            <td>used to analyze clients ip address, subnet mask, gateway,
+                dns server</td>
+        </tr>
+        <tr>
+            <th>dig</th>
+            <td>used for simple DNS lookup</td>
+        </tr>
+        <tr>
+            <th>dstat</th>
+            <td>collects and shows system resources</td>
+        </tr>
+        <tr>
+            <th>ethtool</th>
+            <td>used to check settings of your NIC</td>
+        </tr>
+        <tr>
+            <th>ftp</th>
+            <td>used for for file transfer</td>
+        </tr>
+        <tr>
+            <th>host</th>
+            <td>used for IP-Name matchings</td>
+        </tr>
+        <tr>
+            <th>hping3</th>
+            <td>used for packet analyze</td>
+        </tr>
+        <tr>
+            <th>ifstat</th>
+            <td>used to monitor network interface statistics</td>
+        </tr>
+        <tr>
+            <th>ip addr</th>
+            <td>used to check network interfaces and routing activities</td>
+        </tr>
+        <tr>
+            <th>iptables</th>
+            <td>used for ip packet filtering</td>
+        </tr>
+        <tr>
+            <th>iftop</th>
+            <td>displays current bandwidth usage</td>
+        </tr>
+        <tr>
+            <th>ifup/ifdown</th>
+            <td>used to enable or disable interfaces</td>
+        </tr>
+        <tr>
+            <th>iwconfig</th>
+            <td>used to configure wireless interfaces</td>
+        </tr>
+        <tr>
+            <th>netstat</th>
+            <td>to check network connections</td>
+        </tr>
+        <tr>
+            <th>nload</th>
+            <td>used as bandwidth monitoring tool</td>
+        </tr>
+        <tr>
+            <th>nmap</th>
+            <td>used for security audits</td>
+        </tr>
+        <tr>
+            <th>nslookup</th>
+            <td>used also for DNS query</td>
+        </tr>
+        <tr>
+            <th>ping</th>
+            <td>used to check reachability</td>
+        </tr>
+        <tr>
+            <th>route</th>
+            <td>displays IP Routing Table</td>
+        </tr>
+        <tr>
+            <th>scp</th>
+            <td>secured file transfer</td>
+        </tr>
+        <tr>
+            <th>sftp</th>
+            <td>secured file transfer</td>
+        </tr>
+        <tr>
+            <th>ss</th>
+            <td>gives detailed information about the sockets</td>
+        </tr>
+        <tr>
+            <th>ssh</th>
+            <td>used for secure connection</td>
+        </tr>
+        <tr>
+            <th>tshark</th>
+            <td>analyzing and capturing</td>
+        </tr>
+        <tr>
+            <th>tcpdump</th>
+            <td>used for analyzing and capturing</td>
+        </tr>
+        <tr>
+            <th>telnet</th>
+            <td>used for classical unsecure connection</td>
+        </tr>
+        <tr>
+            <th>tshark</th>
+            <td>used for packet analyze</td>
+        </tr>
+        <tr>
+            <th>tracepath</th>
+            <td>used for path tracking</td>
+        </tr>
+        <tr>
+            <th>traceroute</th>
+            <td>used for path tracking</td>
+        </tr>
+        <tr>
+            <th>w</th>
+            <td>used to check the current system activity</td>
+        </tr>
+        <tr>
+            <th>wget</th>
+            <td>used to download the content of the web servers</td>
+        </tr>
+        <tr>
+            <th>whois</th>
+            <td>checks the whois database and return with IP and Domain info
+            </td>
+        </tr>
+    </tbody>
+</table>
+<table class="table1 table-striped">
+    <tbody>
+        <tr>
+            <th>command -h / command –help</th>
+            <td>to review all available options of the &#8220;command&#8221;
+            </td>
+        </tr>
+        <tr>
+            <th>info command</th>
+            <td>to find info documents about the &#8220;command&#8221;</td>
+        </tr>
+        <tr>
+            <th>whatis command</th>
+            <td>displays a single line description about
+                the&#8221;command&#8221;</td>
+        </tr>
+        <tr>
+            <th>$ man UNIXCOMMAND</th>
+            <td>to view detailed man page of the &#8220;command&#8221;</td>
+        </tr>
+        <tr>
+            <th>apropos</th>
+            <td>used to search man pages for available commands on a
+                specific functionality.</td>
+        </tr>
+    </tbody>
+</table>
+<table class="table1 table-striped">
+    <tbody>
+        <tr>
+            <th>id</th>
+            <td>shows user&amp;group ids of the current user</td>
+        </tr>
+        <tr>
+            <th>last</th>
+            <td>shows the last users logged on</td>
+        </tr>
+        <tr>
+            <th>whoami</th>
+            <td>shows who you are logged in as</td>
+        </tr>
+        <tr>
+            <th>who</th>
+            <td>shows who is logged into the system</td>
+        </tr>
+        <tr>
+            <th>w</th>
+            <td>shows who is logged in and what they do</td>
+        </tr>
+        <tr>
+            <th>groupadd test</th>
+            <td>creates group &#8220;test&#8221;</td>
+        </tr>
+        <tr>
+            <th>useradd -c &#8220;GK&#8221; -m Gokhan</th>
+            <td>creates &#8220;Gokhan&#8221; account with comment
+                &#8220;GK&#8221;</td>
+        </tr>
+        <tr>
+            <th>userdel Gokhan</th>
+            <td>deletes account &#8220;Gokhan&#8221;</td>
+        </tr>
+        <tr>
+            <th>usermod -aG Networkers Gokhan</th>
+            <td>adds account &#8220;Gokhan&#8221; to the
+                &#8220;Networkers&#8221; group</td>
+        </tr>
+    </tbody>
+</table>
+<table class="table1 table-striped">
+    <tbody>
+        <tr>
+            <th>chown user</th>
+            <td>changes ownership of a file/directory</td>
+        </tr>
+        <tr>
+            <th>chown user:group filename</th>
+            <td>changes user and group for a file or directory</td>
+        </tr>
+        <tr>
+            <th>File Permissions</th>
+            <td>r (read) permission, 4<br />
+                w (write) permission, 2<br />
+                x (execute) permission, 1<br />
+                -= no permission</td>
+        </tr>
+        <tr>
+            <th>File Owner</th>
+            <td>owner/group/everyone</td>
+        </tr>
+        <tr>
+            <th>File Permissions Examples</th>
+            <td>777 | Owner, Group, Everyone has rwx permissions</p>
+                <p>744 | Owner has rwx permission, Group, Everyone has r
+                    permission</p>
+                <p>755 | Owner has rwx permission, Group, Everyone has rx
+                    permissions</p>
+                <p>776 | Owner, Group has rwx permission, Everyone has rw
+                    permissions
+            </td>
+        </tr>
+    </tbody>
+</table>
+<table class="table1 table-striped">
+    <tbody>
+        <tr>
+            <th>grep x file</th>
+            <td>searches for x in file</td>
+        </tr>
+        <tr>
+            <th>grep -i</th>
+            <td>case insens­itive search</td>
+        </tr>
+        <tr>
+            <th>grep -r</th>
+            <td>recursive search</td>
+        </tr>
+        <tr>
+            <th>grep -v</th>
+            <td>inverted search</td>
+        </tr>
+        <tr>
+            <th>grep -o</th>
+            <td>shows only matched part of the file</td>
+        </tr>
+        <tr>
+            <th>find /dir/ -name aaa*</th>
+            <td>finds files starting with aaa in dir</td>
+        </tr>
+        <tr>
+            <th>find /dir/ -user Gokhan</th>
+            <td>finds files owned by Gokhan in dir</td>
+        </tr>
+        <tr>
+            <th>find /dir/ -mmin 10</th>
+            <td>finds files modifed less than 10 minutes ago in dir</td>
+        </tr>
+        <tr>
+            <th>find /home -size +500M</th>
+            <td>finds files larger than 500MB in /xyz</td>
+        </tr>
+        <tr>
+            <th>find [/folder/location] -name [x]</th>
+            <td>finds file names starting with character x</td>
+        </tr>
+        <tr>
+            <th>whereis aaa</th>
+            <td>locates the binary, source, and manual page of aaa</td>
+        </tr>
+        <tr>
+            <th>locate abc</th>
+            <td>finds the location of abc quickly</td>
+        </tr>
+    </tbody>
+</table>
+<table class="table1 table-striped">
+    <tbody>
+        <tr>
+            <th>scp file.txt server:/tmp</th>
+            <td>secure copy file.txt to the /tmp folder on server</td>
+        </tr>
+        <tr>
+            <th>scp server:/var/www/*.html /tmp</th>
+            <td>secure copy *.html files in /var/www/ directory on server to
+                the local /tmp folder</td>
+        </tr>
+        <tr>
+            <th>scp -r server:/var/www /tmp</th>
+            <td>secure copy all files and directories recursively from
+                server to the current system&#8217;s /tmp folder.</td>
+        </tr>
+        <tr>
+            <th>rsync -a /home /backups/</th>
+            <td>synchronize /home to /backups/</td>
+        </tr>
+        <tr>
+            <th>rsync -avz /home server:/backups/</th>
+            <td>Synchronize files/directories between the local and remote
+                system with compression enabled</td>
+        </tr>
+    </tbody>
+</table>
+<table class="table1 table-striped">
+    <tbody>
+        <tr>
+            <th>df</th>
+            <td>shows free hard disk space on the system</td>
+        </tr>
+        <tr>
+            <th>df -h</th>
+            <td>shows free and used space on mounted filesystems</td>
+        </tr>
+        <tr>
+            <th>df -i</th>
+            <td>shows free and used inodes on mounted filesystems</td>
+        </tr>
+        <tr>
+            <th>fdisk -l</th>
+            <td>shows free and used inodes on mounted filesystems</td>
+        </tr>
+        <tr>
+            <th>du -sh</th>
+            <td>shows total disk usage off the current directory</td>
+        </tr>
+        <tr>
+            <th>du -ah</th>
+            <td>shows disk usage for all files and directories in readable
+                format</td>
+        </tr>
+        <tr>
+            <th>free</th>
+            <td>shows free RAM on the system</td>
+        </tr>
+        <tr>
+            <th>free -h</th>
+            <td>shows free and used memory</td>
+        </tr>
+        <tr>
+            <th>findmnt</th>
+            <td>shows target mount point for all filesystem</td>
+        </tr>
+        <tr>
+            <th>mount /xyz /abc</th>
+            <td>mounts a device in /xyz to /abc</td>
+        </tr>
+    </tbody>
+</table>
+<table class="table1 table-striped">
+    <tbody>
+        <tr>
+            <th>gzip abc</th>
+            <td>compresses abc file using gzip.</td>
+        </tr>
+        <tr>
+            <th>bzip2 abc</th>
+            <td>compresses abc file using bzip2.</td>
+        </tr>
+        <tr>
+            <th>zip abc.zip abc</th>
+            <td>compresses abc file into the archive abc.zip.</td>
+        </tr>
+        <tr>
+            <th>tar -czvf archive.tar.gz /home/temp2/</th>
+            <td>compresses a full directory with all subdirectories</td>
+        </tr>
+        <tr>
+            <th>gzip -d xyz.gz</th>
+            <td>extracts xyz.gz with gzip utility</td>
+        </tr>
+        <tr>
+            <th>gunzip xyz.gz</th>
+            <td>extracts xyz.gz with gzip utility</td>
+        </tr>
+        <tr>
+            <th>bzip2 -d file.php.bz2</th>
+            <td>extracts xyz.gz with bzip2 utility</td>
+        </tr>
+        <tr>
+            <th>bunzip2 file.php.bz2</th>
+            <td>extracts xyz.gz with bzip2 utility</td>
+        </tr>
+        <tr>
+            <th>unzip xyz.zip</th>
+            <td>extracts xyz.zip with zip utility</td>
+        </tr>
+        <tr>
+            <th>gunzip -c output.txt.gz</th>
+            <td>to view the contents of both files without extracting</td>
+        </tr>
+        <tr>
+            <th>tar cf archive.tar directory</th>
+            <td>creates tar named archive.tar containing directory</td>
+        </tr>
+        <tr>
+            <th>tar xf archive.tar</th>
+            <td>extracts the contents from archive.tar</td>
+        </tr>
+        <tr>
+            <th>tar czf archive.tar.gz directory</th>
+            <td>creates a gzip compressed tar file name archive.tar.gz</td>
+        </tr>
+        <tr>
+            <th>tar xzf archive.tar.gz</th>
+            <td>extracts a gzip compressed tar file</td>
+        </tr>
+        <tr>
+            <th>tar cjf archive.tar.bz2 directory</th>
+            <td>creates a tar file with bzip2 compression</td>
+        </tr>
+        <tr>
+            <th>tar xjf archive.tar.bz2</th>
+            <td>extracts a bzip2 compressed tar file</td>
+        </tr>
+    </tbody>
+</table>
+<table class="table1 table-striped">
+    <tbody>
+        <tr>
+            <th>yum search keyword</th>
+            <td>compresses abc file using gzip.</td>
+        </tr>
+        <tr>
+            <th>yum install abc</th>
+            <td>installs abc package</td>
+        </tr>
+        <tr>
+            <th>yum info abc</th>
+            <td>displays description and summary info about abc package</td>
+        </tr>
+        <tr>
+            <th>rpm -i abc.rpm</th>
+            <td>installs package from local file named abc.rpm</td>
+        </tr>
+        <tr>
+            <th>yum remove abc</th>
+            <td>Remove/uninstall abc package</td>
+        </tr>
+        <tr>
+            <th>yum list installedl</th>
+            <td>lists all installed packages with yum</td>
+        </tr>
+        <tr>
+            <th>yum search [keyword]</th>
+            <td>finds a package by a related keyword</td>
+        </tr>
+        <tr>
+            <th>yum info [package_name]</th>
+            <td>shows package information and summary</td>
+        </tr>
+        <tr>
+            <th>yum install [package_name.rpm]</th>
+            <td>installs a package using the YUM package manager</td>
+        </tr>
+        <tr>
+            <th>dnf install [package_name.rpm]</th>
+            <td>installs a package using the DNF package manager</td>
+        </tr>
+        <tr>
+            <th>apt-get install [package_name]</th>
+            <td>installs a package using the APT package manager</td>
+        </tr>
+        <tr>
+            <th>rpm -i [package_name.rpm]</th>
+            <td>installs an .rpm package from a local file</td>
+        </tr>
+        <tr>
+            <th>rpm -e [package_name.rpm]</th>
+            <td>removes an .rpm package</td>
+        </tr>
+    </tbody>
+</table>
+<table class="table1 table-striped">
+    <tbody>
+        <tr>
+            <th>dmesg</th>
+            <td>displays messages in kernel ring buffer</td>
+        </tr>
+        <tr>
+            <th>cat /proc/cpuinfo</th>
+            <td>displays CPU information</td>
+        </tr>
+        <tr>
+            <th>cat /proc/meminfo</th>
+            <td>displays memory information</td>
+        </tr>
+        <tr>
+            <th>lspci -tv</th>
+            <td>displays PCI devices</td>
+        </tr>
+        <tr>
+            <th>lsusb -tv</th>
+            <td>displays USB devices</td>
+        </tr>
+        <tr>
+            <th>dmidecode</th>
+            <td>displays DMI/SMBIOS from BIOS</td>
+        </tr>
+        <tr>
+            <th>hdparm -i /dev/sda</th>
+            <td>displays info about disk sda</td>
+        </tr>
+        <tr>
+            <th>hdparm -tT /dev/sda</th>
+            <td>performs a read speed test on disk sda</td>
+        </tr>
+        <tr>
+            <th>badblocks -s /dev/sda</th>
+            <td>tests for unreadable blocks on disk sda</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>
